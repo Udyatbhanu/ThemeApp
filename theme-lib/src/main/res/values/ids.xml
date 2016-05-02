@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <!--
+        Generate an id
+    -->
+
+    <item type="id" name="red" />
+    <item type="id" name="pink" />
+    <item type="id" name="purple" />
+</resources>
+
+
