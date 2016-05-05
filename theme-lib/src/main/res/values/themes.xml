@@ -4,37 +4,73 @@
 
 
 
-    <!-- Base application theme. -->
+    <!-- Red application theme. -->
     <style name="AppThemeRed" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryRed</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkRed</item>
         <item name="colorAccent">@color/colorAccentRed</item>
         <item name="dynamicButtonTheme">@style/ButtonThemeRed</item>
+        <item name="listLayoutTheme">@style/ListLayoutThemeRed</item>
         <item name="android:windowBackground">@color/colorWindowBackgroundRed</item>
 
 
 
     </style>
 
-    <!-- Base application theme. -->
+    <!-- Pink application theme. -->
     <style name="AppThemePink" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryPink</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkPink</item>
         <item name="colorAccent">@color/colorAccentPink</item>
         <item name="dynamicButtonTheme">@style/ButtonThemePink</item>
+        <item name="listLayoutTheme">@style/ListLayoutThemePink</item>
         <item name="android:windowBackground">@color/colorWindowBackgroundPink</item>
 
     </style>
 
-    <!-- Base application theme. -->
+    <!-- Purple application theme. -->
     <style name="AppThemePurple" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryPurple</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
         <item name="colorAccent">@color/colorAccentPurple</item>
         <item name="dynamicButtonTheme">@style/ButtonThemePurple</item>
+        <item name="listLayoutTheme">@style/ListLayoutThemeRed</item>
         <item name="android:windowBackground">@color/colorWindowBackgroundPurple</item>
+    </style>
+
+    <!-- Blue application theme. -->
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBlue</item>
+        <item name="colorAccent">@color/colorAccentBlue</item>
+        <item name="dynamicButtonTheme">@style/ButtonThemeBlue</item>
+        <item name="listLayoutTheme">@style/ListLayoutThemeBlue</item>
+        <item name="android:windowBackground">@color/colorWindowBackgroundBlue</item>
+    </style>
+
+    <!-- Blue application theme. -->
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkOrange</item>
+        <item name="colorAccent">@color/colorAccentOrange</item>
+        <item name="dynamicButtonTheme">@style/ButtonThemeOrange</item>
+        <item name="listLayoutTheme">@style/ListLayoutThemeOrange</item>
+        <item name="android:windowBackground">@color/colorWindowBackgroundOrange</item>
+    </style>
+
+    <!-- Blue application theme. -->
+    <style name="AppThemeIndigo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryIndigo</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkIndigo</item>
+        <item name="colorAccent">@color/colorAccentIndigo</item>
+        <item name="dynamicButtonTheme">@style/ButtonThemeIndigo</item>
+        <item name="listLayoutTheme">@style/ListLayoutThemeIndigo</item>
+        <item name="android:windowBackground">@color/colorWindowBackgroundIndigo</item>
     </style>
 </resources>

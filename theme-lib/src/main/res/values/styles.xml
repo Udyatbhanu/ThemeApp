@@ -1,13 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="dynamicButtonTheme">@style/ButtonTheme</item>
-    </style>
+
 
 
     <style name="ButtonTheme">
@@ -21,6 +15,26 @@
 
     </style>
 
+    <style name="ListLayoutThemeRed">
+        <item name="android:background">@color/colorAccentRed</item>
+    </style>
+    <style name="ListLayoutThemePink">
+        <item name="android:background">@color/colorAccentPink</item>
+    </style>
+    <style name="ListLayoutThemePurple">
+        <item name="android:background">@color/colorAccentPurple</item>
+    </style>
+    <style name="ListLayoutThemeBlue">
+        <item name="android:background">@color/colorAccentBlue</item>
+    </style>
+    <style name="ListLayoutThemeOrange">
+        <item name="android:background">@color/colorAccentOrange</item>
+    </style>
+    <style name="ListLayoutThemeIndigo">
+        <item name="android:background">@color/colorAccentIndigo</item>
+    </style>
+
+
     <style name="ButtonThemeRed" parent="ButtonTheme">
 
         <item name="android:background">@color/buttonColorRed</item>
@@ -30,6 +44,17 @@
     </style>
     <style name="ButtonThemePurple" parent="ButtonTheme">
         <item name="android:background">@color/buttonColorPurple</item>
+    </style>
+
+    <style name="ButtonThemeBlue" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorBlue</item>
+    </style>
+    <style name="ButtonThemeOrange" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorOrange</item>
+    </style>
+
+    <style name="ButtonThemeIndigo" parent="ButtonTheme">
+        <item name="android:background">@color/buttonColorIndigo</item>
     </style>
 
     <!-- Base application theme. -->

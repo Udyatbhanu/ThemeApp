@@ -2,9 +2,6 @@
 <resources>
     <color name="button_color">#78909C</color>
 
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
 
     <color name="white">#FFFFFF</color>
 
@@ -29,5 +26,27 @@
     <color name="colorAccentPurple">#E1BEE7</color>
     <color name="colorWindowBackgroundPurple">#F3E5F5</color>
     <color name="buttonColorPurple">#6A1B9A</color>
+
+
+    <!-- Blue Theme -->
+    <color name="colorPrimaryBlue">#2196F3</color>
+    <color name="colorPrimaryDarkBlue">#0D47A1</color>
+    <color name="colorAccentBlue">#BBDEFB</color>
+    <color name="colorWindowBackgroundBlue">#1565C0</color>
+    <color name="buttonColorBlue">#6A1B9A</color>
+
+    <!-- Orange Theme -->
+    <color name="colorPrimaryOrange">#FF9800</color>
+    <color name="colorPrimaryDarkOrange">#E65100</color>
+    <color name="colorAccentOrange">#FFE0B2</color>
+    <color name="colorWindowBackgroundOrange">#EF6C00</color>
+    <color name="buttonColorOrange">#EF6C00</color>
+
+    <!-- Indigo Theme -->
+    <color name="colorPrimaryIndigo">#3F51B5</color>
+    <color name="colorPrimaryDarkIndigo">#1A237E</color>
+    <color name="colorAccentIndigo">#C5CAE9</color>
+    <color name="colorWindowBackgroundIndigo">#E8EAF6</color>
+    <color name="buttonColorIndigo">#283593</color>
 
 </resources>

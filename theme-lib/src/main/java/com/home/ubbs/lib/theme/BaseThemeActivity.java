@@ -17,7 +17,7 @@ import com.home.ubbs.lib.theme.ThemeSettings;
 /**
  * Created by udyatbhanu-mac on 4/30/16.
  */
-public class BaseThemeActivity extends AppCompatActivity {
+public abstract class BaseThemeActivity extends AppCompatActivity {
 
     protected static final String THEME_KEY = "theme";
 

@@ -3,6 +3,7 @@
     <!-- This is declaring the XML attributes that can be set within a theme. -->
     <!-- Check the "res/values/themes.xml" file for examples of these attributes being set.  -->
     <attr name="dynamicButtonTheme" format="reference" />
+    <attr name="listLayoutTheme" format="reference" />
 
 
 </resources>
