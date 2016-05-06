@@ -7,14 +7,13 @@ import android.support.annotation.StyleRes;
  */
 public class ThemeSettings {
 
-    public  static @StyleRes
-    int style = -1;
+    public  static @StyleRes int style = -1;
 
     private ThemeSettings(){
 
     }
 
-    public static int getStyle() {
+    public static @StyleRes int getStyle() {
         return style;
     }
 

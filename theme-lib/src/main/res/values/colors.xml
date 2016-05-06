@@ -9,7 +9,7 @@
     <!-- Red Theme -->
     <color name="colorPrimaryRed">#F44336</color>
     <color name="colorPrimaryDarkRed">#B71C1C</color>
-    <color name="colorAccentRed">#FF4081</color>
+    <color name="colorAccentRed">#FFCDD2</color>
     <color name="colorWindowBackgroundRed">#FFEBEE</color>
     <color name="buttonColorRed">#C62828</color>
 
@@ -32,14 +32,14 @@
     <color name="colorPrimaryBlue">#2196F3</color>
     <color name="colorPrimaryDarkBlue">#0D47A1</color>
     <color name="colorAccentBlue">#BBDEFB</color>
-    <color name="colorWindowBackgroundBlue">#1565C0</color>
-    <color name="buttonColorBlue">#6A1B9A</color>
+    <color name="colorWindowBackgroundBlue">#E3F2FD</color>
+    <color name="buttonColorBlue">#1565C0</color>
 
     <!-- Orange Theme -->
     <color name="colorPrimaryOrange">#FF9800</color>
     <color name="colorPrimaryDarkOrange">#E65100</color>
     <color name="colorAccentOrange">#FFE0B2</color>
-    <color name="colorWindowBackgroundOrange">#EF6C00</color>
+    <color name="colorWindowBackgroundOrange">#FFF3E0</color>
     <color name="buttonColorOrange">#EF6C00</color>
 
     <!-- Indigo Theme -->
