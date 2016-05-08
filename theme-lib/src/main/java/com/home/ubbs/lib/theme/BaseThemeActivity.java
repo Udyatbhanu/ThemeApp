@@ -22,13 +22,26 @@ public abstract class BaseThemeActivity extends AppCompatActivity {
     SharedPreferences sharedpreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        sharedpreferences = getSharedPreferences(ThemeConstants.THEME_PREFERENCE_KEY, Context.MODE_PRIVATE);
         //setup Theme
-        setUpTheme(ThemeSettings.style);
+        setUpTheme(getDefaultTheme());
         setCurrentTheme(ThemeSettings.style);
         super.onCreate(savedInstanceState);
-        sharedpreferences = getSharedPreferences(ThemeConstants.THEME_PREFERENCE_KEY, Context.MODE_PRIVATE);
-        storeTheme(ThemeSettings.style);  //default theme
+
+        if(ThemeSettings.style == -1){
+            storeTheme(R.style.AppThemeIndigo);
+        }//default theme
+    }
+
+
+    /**
+     *
+     * @return
+     */
+    private @StyleRes int  getDefaultTheme(){
+        @StyleRes int currentTheme = sharedpreferences.getInt(ThemeConstants.CURRENT_THEME, -1);
+        ThemeSettings.style = currentTheme;
+        return currentTheme;
     }
 
 
@@ -55,15 +68,20 @@ public abstract class BaseThemeActivity extends AppCompatActivity {
 
     }
 
+
+    /**
+     *
+     * @param style
+     */
     private void storeTheme(@StyleRes int style){
         SharedPreferences.Editor editor = sharedpreferences.edit();
         @StyleRes int currentTheme = sharedpreferences.getInt(ThemeConstants.CURRENT_THEME, ThemeSettings.style);
         if(currentTheme == -1){
             currentTheme = R.style.AppThemeIndigo;
-            ThemeSettings.style = R.style.AppThemeIndigo;
         }
         editor.putInt(ThemeConstants.PREVIOUS_THEME, currentTheme);
         editor.putInt(ThemeConstants.CURRENT_THEME, style);
+        editor.apply();
     }
 
 
@@ -91,7 +109,7 @@ public abstract class BaseThemeActivity extends AppCompatActivity {
      */
     private void changeTheme(){
         Intent intent = new Intent(getBaseContext(), this.getClass());
-        startActivity(intent);
+        startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
         finish();
     }
 
